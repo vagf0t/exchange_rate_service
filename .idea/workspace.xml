@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb22fad-2f70-4b4a-954d-05cbb02d66ec" name="Default" comment="" />
+    <list default="true" id="8eb22fad-2f70-4b4a-954d-05cbb02d66ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/exchange_rate_spec.rb" afterPath="$PROJECT_DIR$/spec/models/exchange_rate_spec.rb" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -28,6 +30,7 @@
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_for_the_exchange_rate_is_found_in_DB_should_call_get_exchange_rate_from_ecb__exchange_rate_service.coverage" NAME="ExchangeRate.for the exchange rate is found in DB should call get_exchange_rate_from_ecb: exchange_rate_service Coverage Results" MODIFIED="1509918485757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_get_exchange_rate_from_blank_rate_in_row_logs_the_error_and_parses_the_next_row__exchange_rate_service.coverage" NAME="ExchangeRate.get_exchange_rate_from blank rate in row logs the error and parses the next row: exchange_rate_service Coverage Results" MODIFIED="1509925879985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_get_exchange_rate_from_invalid_date_in_row_logs_the_error_and_parses_the_next_row__exchange_rate_service.coverage" NAME="ExchangeRate.get_exchange_rate_from invalid date in row logs the error and parses the next row: exchange_rate_service Coverage Results" MODIFIED="1509924892907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
+    <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_get_exchange_rate_from_invalid_date_in_row__exchange_rate_service.coverage" NAME="ExchangeRate.get_exchange_rate_from invalid date in row: exchange_rate_service Coverage Results" MODIFIED="1510086267206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_working_day_Sunday_should_return_Friday__exchange_rate_service.coverage" NAME="ExchangeRate.working_day Sunday should return Friday: exchange_rate_service Coverage Results" MODIFIED="1509918860709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRatesController_GET__show_raises_a_bad_request_exception_with_a_non_date__on_parameter__exchange_rate_service.coverage" NAME="ExchangeRatesController GET #show raises a bad request exception with a non-date :on parameter: exchange_rate_service Coverage Results" MODIFIED="1509907576459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@EurosToUsDollarsController_GET__show_raises_a_bad_request_exception_without__on_parameter_and_amount_present__exchange_rate_service.coverage" NAME="EurosToUsDollarsController GET #show raises a bad request exception without :on parameter and amount present: exchange_rate_service Coverage Results" MODIFIED="1509915370152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
@@ -43,13 +46,14 @@
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_get_exchange_rate_from_rate_in_no_row_logs_the_error_and_parses_the_next_row__exchange_rate_service.coverage" NAME="ExchangeRate.get_exchange_rate_from rate in no row logs the error and parses the next row: exchange_rate_service Coverage Results" MODIFIED="1509927147110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_create_or_update_create_should_receive_new__exchange_rate_service.coverage" NAME="ExchangeRate.create_or_update create should receive new: exchange_rate_service Coverage Results" MODIFIED="1509919778619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_working_day_working_day_should_return_Friday__exchange_rate_service.coverage" NAME="ExchangeRate.working_day working day should return Friday: exchange_rate_service Coverage Results" MODIFIED="1509919037473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
-    <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_get_exchange_rate_from_ecb_tries_to_fetch_the_exchange_rate_from_csv__exchange_rate_service.coverage" NAME="ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv: exchange_rate_service Coverage Results" MODIFIED="1509922791895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
+    <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_get_exchange_rate_from_ecb_tries_to_fetch_the_exchange_rate_from_csv__exchange_rate_service.coverage" NAME="ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv: exchange_rate_service Coverage Results" MODIFIED="1510085976353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@routes_routes_us_dollars_to_euros_to_the_controller__exchange_rate_service.coverage" NAME="routes routes us_dollars_to_euros to the controller: exchange_rate_service Coverage Results" MODIFIED="1509931589214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRatesController_GET__show_raises_a_bad_request_exception_without__on_parameter__exchange_rate_service.coverage" NAME="ExchangeRatesController GET #show raises a bad request exception without :on parameter: exchange_rate_service Coverage Results" MODIFIED="1509907593844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@EurosToUsDollarsController_GET__show_raises_a_no_route_exception_without__on_parameter__exchange_rate_service.coverage" NAME="EurosToUsDollarsController GET #show raises a no route exception without :on parameter: exchange_rate_service Coverage Results" MODIFIED="1509915431616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRatesController_GET__show_renders_the_exchange_rate_with__on_parameter__exchange_rate_service.coverage" NAME="ExchangeRatesController GET #show renders the exchange rate with :on parameter: exchange_rate_service Coverage Results" MODIFIED="1509908683020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRatesController__exchange_rate_service.coverage" NAME="ExchangeRatesController: exchange_rate_service Coverage Results" MODIFIED="1509915585649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@routes_routes_exchange_rate_to_the_exchange_rates_controller__exchange_rate_service.coverage" NAME="routes routes exchange_rate to the exchange_rates controller: exchange_rate_service Coverage Results" MODIFIED="1509930802549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
+    <SUITE FILE_PATH="coverage/exchange_rate_service@Run_spec__exchange_rate_spec___exchange_rate_service.coverage" NAME="Run spec 'exchange_rate_spec': exchange_rate_service Coverage Results" MODIFIED="1510086340446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRateConverter_convert_should_call_for__exchange_rate_service.coverage" NAME="ExchangeRateConverter.convert should call for: exchange_rate_service Coverage Results" MODIFIED="1509926579462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@ExchangeRate_for_should_call_working_day__exchange_rate_service.coverage" NAME="ExchangeRate.for should call working_day: exchange_rate_service Coverage Results" MODIFIED="1509930178021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
     <SUITE FILE_PATH="coverage/exchange_rate_service@Api__V1__ExchangeRatesController_GET__show_renders_the_search_json__exchange_rate_service.coverage" NAME="Api::V1::ExchangeRatesController GET #show renders the search json: exchange_rate_service Coverage Results" MODIFIED="1509894848725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exchange_rate_service" />
@@ -59,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="exchange_rate_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exchange_rate_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/exchange_rate_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="103" column="7" lean-forward="false" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,11 +96,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exchange_rate.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/exchange_rate.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exchange_rates_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/exchange_rates_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="us_dollars_to_euros_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/us_dollars_to_euros_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exchange_rate_converter_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/exchange_rate_converter_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exchange_rate_converter.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/exchange_rate_converter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,26 +161,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_mailer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_job.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/jobs/application_job.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,6 +186,9 @@
       <replace>us_dollars_to_euros</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -173,11 +210,11 @@
         <option value="$PROJECT_DIR$/spec/test_files/blank_rate.csv" />
         <option value="$PROJECT_DIR$/spec/models/exchange_rate_converter_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/exchange_rate.rb" />
-        <option value="$PROJECT_DIR$/spec/models/exchange_rate_spec.rb" />
         <option value="$PROJECT_DIR$/spec/routing/posts_routing_spec.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/spec/routing/routing_spec.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/spec/models/exchange_rate_spec.rb" />
       </list>
     </option>
   </component>
@@ -199,6 +236,7 @@
     <option name="width" value="1919" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -308,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: exchange_rate_service">
+  <component name="RunManager" selected="RSpec.Run spec 'exchange_rate_spec': exchange_rate_service">
     <configuration name="Development: exchange_rate_service" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="exchange_rate_service" />
@@ -329,7 +367,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
-    <configuration name="ExchangeRate: exchange_rate_service" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="ExchangeRate.get_exchange_rate_from invalid date in row: exchange_rate_service" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="exchange_rate_service" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -348,7 +386,36 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/exchange_rate_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ExchangeRate" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ExchangeRate.get_exchange_rate_from invalid date in row" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv: exchange_rate_service" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="exchange_rate_service" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/exchange_rate_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -378,7 +445,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
-    <configuration name="routes routes exchange_rate to the exchange_rates controller: exchange_rate_service" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Run spec 'exchange_rate_spec': exchange_rate_service" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="exchange_rate_service" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -394,10 +461,10 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\projects\exchange_rate_service\spec\routing\routing_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/exchange_rate_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="routes routes exchange_rate to the exchange_rates controller" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -427,35 +494,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="routes routes exchange_rates controller" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="routes routes us_dollars_to_euros to the controller: exchange_rate_service" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="exchange_rate_service" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/routing/routing_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="routes routes us_dollars_to_euros to the controller" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -537,19 +575,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: exchange_rate_service" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: exchange_rate_service" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: exchange_rate_service" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.ExchangeRate: exchange_rate_service" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.routes routes exchange_rate to the exchange_rates controller: exchange_rate_service" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.routes routes us_dollars_to_euros to the controller: exchange_rate_service" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.routes routes exchange_rates controller: exchange_rate_service" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.routes: exchange_rate_service" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.routes routes exchange_rates controller: exchange_rate_service" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.routes: exchange_rate_service" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv: exchange_rate_service" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.ExchangeRate.get_exchange_rate_from invalid date in row: exchange_rate_service" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'exchange_rate_spec': exchange_rate_service" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.routes: exchange_rate_service" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.routes routes exchange_rates controller: exchange_rate_service" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.routes routes us_dollars_to_euros to the controller: exchange_rate_service" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.routes routes exchange_rate to the exchange_rates controller: exchange_rate_service" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.ExchangeRate: exchange_rate_service" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'exchange_rate_spec': exchange_rate_service" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ExchangeRate.get_exchange_rate_from invalid date in row: exchange_rate_service" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv: exchange_rate_service" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.routes: exchange_rate_service" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.routes routes exchange_rates controller: exchange_rate_service" />
       </list>
     </recent_temporary>
   </component>
@@ -567,22 +605,22 @@
       <workItem from="1509882663637" duration="45115000" />
       <workItem from="1509993952914" duration="104000" />
       <workItem from="1510005398401" duration="168000" />
-      <workItem from="1510084183084" duration="77000" />
+      <workItem from="1510084183084" duration="1555000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExchangeRate__exchange_rate_service - 2017.11.06 at 03h 05m 24s.xml">
-      <configuration name="ExchangeRate: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ExchangeRate__exchange_rate_service - 2017.11.06 at 03h 08m 29s.xml">
-      <configuration name="ExchangeRate: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ExchangeRate_for_should_call_working_day__exchange_rate_service - 2017.11.06 at 03h 02m 35s.xml">
-      <configuration name="ExchangeRate.for should call working_day: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="ExchangeRate_for_should_call_working_day__exchange_rate_service - 2017.11.06 at 03h 03m 11s.xml">
       <configuration name="ExchangeRate.for should call working_day: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExchangeRate_get_exchange_rate_from_ecb_tries_to_fetch_the_exchange_rate_from_csv__exchange_rate_service - 2017.11.07 at 22h 19m 49s.xml">
+      <configuration name="ExchangeRate.get_exchange_rate_from_ecb tries to fetch the exchange rate from csv: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExchangeRate_get_exchange_rate_from_invalid_date_in_row__exchange_rate_service - 2017.11.07 at 22h 24m 39s.xml">
+      <configuration name="ExchangeRate.get_exchange_rate_from invalid date in row: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'exchange_rate_spec'__exchange_rate_service - 2017.11.07 at 22h 25m 54s.xml">
+      <configuration name="Run spec 'exchange_rate_spec': exchange_rate_service" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="routes__exchange_rate_service - 2017.11.06 at 03h 28m 05s.xml">
       <configuration name="routes: exchange_rate_service" configurationId="RSpecRunConfigurationType" />
@@ -604,7 +642,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45464000" />
+    <option name="totallyTimeSpent" value="46942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1919" height="1038" extended-state="0" />
@@ -614,8 +652,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30357143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3027027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -816,20 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/exchange_rates_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/us_dollars_to_euros_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/test_files/invalid_date.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -872,41 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/exchange_rate_converter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/exchange_rate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/exchange_rate_converter_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/exchange_rate_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="7" lean-forward="false" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,6 +995,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/exchange_rate_converter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/exchange_rate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/exchange_rates_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/us_dollars_to_euros_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/exchange_rate_converter_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/exchange_rate_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

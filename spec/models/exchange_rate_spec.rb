@@ -91,7 +91,7 @@ RSpec.describe ExchangeRate, type: :model do
 
   describe '.get_exchange_rate_from' do
     context 'invalid date in row' do
-      let(:csv_text) { File.read('spec\test_files\invalid_date.csv') }
+      let(:csv_text) { File.read('spec/test_files/invalid_date.csv') }
       let(:csv) { CSV.parse(csv_text, headers: true) }
 
       it 'logs the error and parses the next row' do
@@ -104,7 +104,7 @@ RSpec.describe ExchangeRate, type: :model do
     end
 
     context 'invalid rate in row' do
-      let(:csv_text) { File.read('spec\test_files\invalid_rate.csv') }
+      let(:csv_text) { File.read('spec/test_files/invalid_rate.csv') }
       let(:csv) { CSV.parse(csv_text, headers: true) }
 
       it 'logs the error and parses the next row' do
@@ -118,7 +118,7 @@ RSpec.describe ExchangeRate, type: :model do
     end
 
     context 'blank rate in row' do
-      let(:csv_text) { File.read('spec\test_files\blank_rate.csv') }
+      let(:csv_text) { File.read('spec/test_files/blank_rate.csv') }
       let(:csv) { CSV.parse(csv_text, headers: true) }
 
       it 'logs the error and parses the next row' do
@@ -132,7 +132,7 @@ RSpec.describe ExchangeRate, type: :model do
     end
 
     context 'valid row' do
-      let(:csv_text) { File.read('spec\test_files\valid.csv') }
+      let(:csv_text) { File.read('spec/test_files/valid.csv') }
       let(:csv) { CSV.parse(csv_text, headers: true) }
 
       it 'parses the rows and returns the proper rate' do
@@ -144,7 +144,7 @@ RSpec.describe ExchangeRate, type: :model do
     end
 
     context 'rate in no row' do
-      let(:csv_text) { File.read('spec\test_files\valid.csv') }
+      let(:csv_text) { File.read('spec/test_files/valid.csv') }
       let(:csv) { CSV.parse(csv_text, headers: true) }
 
       it 'parses the rows, stores them and raises a 404' do
