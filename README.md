@@ -47,5 +47,5 @@ to convert 100 US dollars to Euros, based on the exchange rate of 2017-11-5.
 `http://localhost:3000/exchange_rates/2017-11-5`
 to get the US dollars to Euros exchange rate of 2017-11-5.
 * To update the database with the latest exchange rates just perform a GET request to:
-`http://localhost:3000/exchange_rates/<current_date>
+`http://localhost:3000/exchange_rates/<current_date>`
 
